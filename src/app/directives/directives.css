@@ -1,0 +1,169 @@
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #d67ba8;
+  background-color: #ffe9f2;
+}
+
+/* Table background */
+table {
+  background-color: #fff7fb;
+}
+
+.title {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 5px;
+  color: #e88bb7;
+}
+
+.subtitle {
+  text-align: center;
+  color: #d9609f;
+  margin-bottom: 25px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 18px 22px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.section-title {
+  margin-bottom: 15px;
+  font-size: 22px;
+  border-left: 4px solid #e88bb7;
+  padding-left: 10px;
+}
+
+.success-msg {
+  color: #b84f88;
+  padding: 10px;
+  background: #ffe4f0;
+  border-left: 4px solid #e88bb7;
+  border-radius: 6px;
+}
+
+.error-msg {
+  color: #ff4b6e;
+  padding: 10px;
+  background: #ffd6df;
+  border-left: 4px solid #ff4b6e;
+  border-radius: 6px;
+}
+
+.info-msg {
+  color: #ad5fa3;
+  padding: 10px;
+  background: #ffe8fa;
+  border-left: 4px solid #ad5fa3;
+  border-radius: 6px;
+}
+
+.toggle-text {
+  margin-top: 12px;
+  background: #fff0f7;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.2s;
+  font-weight: 500;
+}
+
+.show {
+  background: #e88bb7;
+  color: #fff;
+}
+
+.show:hover {
+  background: #d16fa0;
+}
+
+/* Hide Button */
+.hide {
+  background: #ff7d9d;
+  color: #fff;
+}
+
+.hide:hover {
+  background: #e06784;
+}
+
+/* Toggle Button */
+.toggle {
+  background: #cf7ab0;
+  color: #fff;
+}
+
+.toggle:hover {
+  background: #b96398;
+}
+
+/* BUTTON GROUP */
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.col {
+  flex: 1;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 20px;
+  background: #fff2f8;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+}
+
+table th {
+  background: #e88bb7;
+  color: white;
+  padding: 14px;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  text-align: left;
+  font-size: 25px;
+}
+
+table td {
+  padding: 12px 14px;
+  background: #fff7fb;
+  border-bottom: 1px solid #f7d9e8;
+  color: #b74a7d;
+  font-size: 20px;
+}
+
+table tr:last-child td {
+  border-bottom: none;
+}
+
+table tr:hover td {
+  background: #ffe1ef;
+  transition: 0.25s;
+}
+
+table tr:hover {
+  transform: scale(1.01);
+}
